@@ -1,0 +1,45 @@
+{
+  "name": "vcb",
+  "private": true,
+  "version": "0.0.0",
+  "description": "a Sails application",
+  "keywords": [],
+  "dependencies": {
+    "ejs": "2.3.4",
+    "grunt": "1.0.1",
+    "grunt-contrib-clean": "1.0.0",
+    "grunt-contrib-coffee": "1.0.0",
+    "grunt-contrib-concat": "1.0.1",
+    "grunt-contrib-copy": "1.0.0",
+    "grunt-contrib-cssmin": "1.0.1",
+    "grunt-contrib-jst": "1.0.0",
+    "grunt-contrib-less": "1.3.0",
+    "grunt-contrib-uglify": "1.0.1",
+    "grunt-contrib-watch": "1.0.0",
+    "grunt-sails-linker": "~0.10.1",
+    "grunt-sync": "0.5.2",
+    "include-all": "^1.0.0",
+    "rc": "1.0.1",
+    "sails": "~0.12.7",
+    "sails-disk": "~0.10.9",
+    "request": "^2.75.0",
+    "sails-mysql": "^0.11.5"
+  },
+  "scripts": {
+    "debug": "node debug app.js",
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kingasawa/vcb"
+  },
+  "author": "taovangmobile",
+  "license": "",
+  "devDependencies": {
+    "babel-plugin-transform-strict-mode": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-es2017": "^6.14.0",
+    "babel-register": "^6.9.0"
+  }
+}

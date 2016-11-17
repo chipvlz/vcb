@@ -1,0 +1,7 @@
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+  background: #f5f5f5;
+}
+
+form#form_getname {
+  max-width:500px;
+}
